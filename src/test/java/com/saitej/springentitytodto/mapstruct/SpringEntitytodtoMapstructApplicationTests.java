@@ -28,7 +28,7 @@ class SpringEntitytodtoMapstructApplicationTests {
 
     @Test
     void testFindProduct() {
-        ProductDTO productDTO = productService.findById(5L);
+        ProductDTO productDTO = productService.findById(3L);
         System.out.println(productDTO);
     }
 
@@ -44,7 +44,7 @@ class SpringEntitytodtoMapstructApplicationTests {
 
     @Test
     void testDeleteProduct() {
-        String s = productService.DeleteById(5L);
+        String s = productService.DeleteById(3L);
         System.out.println(s);
     }
 }
